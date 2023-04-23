@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background: url(https://images.unsplash.com/photo-1579579778611-ac38b712bd4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  background-size: cover;
+background-repeat: no-repeat;
+}
+
+.logo {
+  font-size: 2em;
+  padding: 20px;
+  color: #FFF4E0;
+}
+
+#myDIV {
+  width: 30%;
+  padding: 50px 0;
+  display: none;
+}
+
+.button1 {
+  width: 100px;
+  height: 30px;
+  margin-left: 20px;
+  border-radius: 0 0 5px 0;
+  box-shadow: 5px 5px 2px #FFF4E0;
+}
+
+
+form {
+  width: 350px;
+  height: 240px;
+  padding: 40px;
+  margin-left: 43px;
+  box-shadow: 0.5em 0.5em 0.5em rgba(101, 58, 9, 0.74);
+  background-color: #e5b2998e;
+}
+
+.add {
+  background-color: #FFF4E0;
+  width: 70px;
+  height: 20px;
+  border-radius: 5px;
+
+}
+
+h4 {
+  color: rgb(231, 218, 228);
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#search-container {
+  margin: 1em 0;
+}
+
+#search-container input {
+  background-color: transparent;
+  width: 40%;
+  border-bottom: 2px solid rgb(31, 27, 28);
+  padding: 1em 0.3em;
+  color: white;
+}
+
+#search-container input:focus {
+  border-bottom-color: white;
+}
+
+#search-container button {
+  padding: 1em 2em;
+  margin-left: 1em;
+  background-color:#FCDEC0;
+  color: rgb(18, 22, 21);
+  border-radius: 5px;
+  margin-top: 0.5em;
+}
+
+.button-value {
+  border: 2px solid #FCDEC0;
+  padding: 1em 2.2em;
+  border-radius: 0 0 8px 0;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  box-shadow: 1em 0.5em 0.5em rgba(101, 58, 9, 0.74);
+}
+
+
+
+.active {
+  background-color: #FCDEC0;
+  color: black;
+}
+
+#products {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 2em;
+  padding: 60px;
+}
+
+.card {
+  background-color: #B4846C;
+  max-width: 18em;
+  margin-top: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0.5em 0.5em 0.5em rgba(101, 58, 9, 0.74);
+}
+
+.image-container {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+  height: 15em;
+}
+
+.container {
+  padding-top: 1em;
+  color: black;
+}
+
+.container h5 {
+  font-weight: 500;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 10em;
+  }
+
+  .card {
+    max-width: 10em;
+    margin-top: 1em;
+  }
+
+  #products {
+    grid-template-columns: auto auto;
+    grid-column-gap: 1em;
+  }
+}
+
